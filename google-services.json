@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "253491338929",
+    "project_id": "plants-vs-zombies-f7080",
+    "storage_bucket": "plants-vs-zombies-f7080.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253491338929:android:dd6481a63a4ff5dc924c90",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.Tower_defence"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253491338929-bhed369e9tga52obl0p10io8obv76f52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6CgEAEMReLpjdIIrGx7vV9OmOuZ8Dpks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253491338929-bhed369e9tga52obl0p10io8obv76f52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
