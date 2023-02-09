@@ -726,6 +726,11 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.8191042
       objectReference: {fileID: 0}
+    - target: {fileID: 3443283139405583315, guid: 5f602aa0f5f98554da2e90d0a93cc967,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5f602aa0f5f98554da2e90d0a93cc967, type: 3}
 --- !u!1 &781820093
@@ -904,6 +909,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5087152447013281223, guid: 8bfc3747f5331494b9e2514b0558a8b1,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1080037110231092, guid: 8bfc3747f5331494b9e2514b0558a8b1, type: 3}
       propertyPath: m_Name
       value: AlfEvil
@@ -7684,7 +7694,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7187501, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 155374780, y: -121738.836}
+  m_AnchoredPosition: {x: 155374620, y: -121738.836}
   m_SizeDelta: {x: 246.39209, y: 360.79504}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1912160615

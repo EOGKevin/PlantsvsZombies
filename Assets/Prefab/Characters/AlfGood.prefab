@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4453024207206980}
   - component: {fileID: 3443283139405583315}
   - component: {fileID: 2983876011653241277}
+  - component: {fileID: 2251418940725530737}
   m_Layer: 0
   m_Name: AlfGood
   m_TagString: tover
@@ -77,7 +78,27 @@ MonoBehaviour:
   monster3: {fileID: 1647424367623006, guid: 3d11a91f497423349a65aa8c7e17cada, type: 3}
   monster4: {fileID: 1667309064412232, guid: 321105fb5deca3c4f82f1943fd07b265, type: 3}
   monster5: {fileID: 1953244774509500, guid: 9ae719d4ba33e6b439a6c607b4a4503c, type: 3}
-  MHp: 30
+--- !u!50 &2251418940725530737
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681563573121408}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &918082474537712326
 GameObject:
   m_ObjectHideFlags: 0
