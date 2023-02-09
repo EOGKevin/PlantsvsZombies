@@ -72,10 +72,7 @@ public abstract class towermaster : MonoBehaviour
         }
 
 
-        //else
-        //{
-        //    Debug.Log("miss hit");
-        //}
+     
     }
        
 }
