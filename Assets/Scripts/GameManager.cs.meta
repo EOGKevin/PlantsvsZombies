@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Scripts/MainmenuMaster.cs.meta
-guid: 74e89bed8e18f5842b38ca9beb9db3db
-========
-guid: d32ff0ed95dbdd64b8338c2436b568f1
->>>>>>>> niklas:Assets/Scripts/FirebaseManager.cs.meta
+guid: 319f42655e355c94da7f5ea73dfe0232
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
