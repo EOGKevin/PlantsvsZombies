@@ -10,7 +10,7 @@ public class tower1 : towermaster
     {
         Dmg =1 ;
         Name = "t1";
-        Hp = 10;
+        Hp = 5;
         Cost=15;
     }
 
@@ -23,7 +23,16 @@ public class tower1 : towermaster
     // Update is called once per frame
     void Update()
     {
-        Attack();
+         
+    }
+
+   
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+Attack();
+        Dead();
+        Debug.Log("hit toower");
     }
 
 }
