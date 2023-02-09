@@ -7,13 +7,15 @@ public class HealthSystem : MonoBehaviour
     public Text LifeCount;
     public int defaultHealthCount;
     public int healthCount;
-    // 
+
+    //health count 
     public void Init()
     {
         healthCount = defaultHealthCount;
         LifeCount.text = healthCount.ToString();
     }
 
+    //lose health
     public void LoseHealth()
     {
         if (healthCount < 1)
@@ -32,6 +34,7 @@ public class HealthSystem : MonoBehaviour
         if(healthCount<1)
         {
             Debug.Log("You lost");
+            
         }
  
     }
