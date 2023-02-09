@@ -7,8 +7,12 @@ public class GameManager : MonoBehaviour
 
     void Awake() { instance = this; }
 
+
+    //health system
     void Start()
     {
         GetComponent<HealthSystem>().Init();
     }
+
+
 }
